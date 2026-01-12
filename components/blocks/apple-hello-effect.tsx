@@ -45,11 +45,11 @@ function AppleHelloEffect({
 				animate={animateProps}
 				fill="currentColor"
 				transition={{
-					duration: calc(2.8),
+					duration: calc(4),
 					ease: "easeInOut",
-					delay: calc(0.7),
-					opacity: {duration: 0.7, delay: calc(0.7)},
-					fillOpacity: {duration: 0.7, delay: calc(1.4)},
+					delay: calc(0.1),
+					opacity: {duration: 0.7, delay: calc(0.0)},
+					fillOpacity: {duration: 0.7, delay: calc(0.6)},
 				}}
 				onAnimationComplete={onAnimationComplete}
 				exit={initialProps}
